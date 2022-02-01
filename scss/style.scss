@@ -1,0 +1,149 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0rem;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+body{
+	padding: 30px;
+}
+
+.listfirst {
+	margin-bottom: 80px;
+}
+.listfirst li{
+	color: #273d46;
+	font-size: 20px;
+	line-height: 36px;
+	background: url(../img/check_icon_green.png) left no-repeat;
+	padding-left: 40px;
+}
+.listfirst li:nth-child(1){
+	text-decoration: line-through;
+}
+.listfirst li:nth-child(2){
+	font-weight: 700;
+}
+.listfirst li:nth-child(3){
+	font-style: italic;
+}
+.listfirst li:nth-child(4){
+	text-transform: uppercase;
+}
+.listsecond {
+	margin-bottom: 155px;
+}
+.listsecond li{
+	color: #273d46;
+	font-size: 20px;
+	line-height: 36px;
+	background: url(../img/check_icon_green.png) left no-repeat;
+	padding-left: 40px;
+}
+.listsecond li:hover:nth-child(2){
+	color: #d55a5a;
+	font-weight: 600;
+	background: url(../img/check_icon_red.png) left no-repeat;
+}
+.link {
+	display: inline-block;
+	padding: 17px 30px 17px 30px ;
+	color: #ffffff;
+	background-color: #80b7b3;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	height: 44px;
+	border-radius: 24px;
+	margin-bottom: 125px;
+
+	
+}
+.link span{
+	background: url(../img/Shape.png) right no-repeat;
+	padding: 0 30px 0 0;
+}
+.link:hover{
+	background: #3a5856;
+}
+.link:active{
+	background: #818181;
+}
+
+
+.input {
+	padding-bottom: 100px;
+}
+.inputfirst {
+	width: 292px;
+	height: 50px;
+	border: 1px solid #b0b0b0;
+}
+.inputfirst:focus:nth-child(1){
+	box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+border: 1px solid #7fbed5;
+}
